@@ -1,0 +1,1280 @@
+
+*,
+*::before,
+*::after {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main .section {
+  height: 100%;
+  top: 979px;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .overlap-group {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -124px;
+  /* left: 240px; */
+  background-image: url(./img/picture-iphone-16-pro-dbqs3s14emky-large-jpg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .overlap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 191px;
+  /* left: 390px; */
+  background-image: url(./img/picture-logo-hello-apple-intelligence-pro-q5kyi31zk72q-large.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .heading-iphone {
+  position: absolute;
+  width: 380px;
+  height: 64px;
+  top: 67px;
+  left: 140px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #f5f5f7;
+  font-size: 58.8px;
+  letter-spacing: -0.58px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main .container {
+  position: absolute;
+  width: 808px;
+  height: 84px;
+  top: 797px;
+  left: 316px;
+}
+
+.main .built-for-apple {
+  position: absolute;
+  width: 780px;
+  height: 85px;
+  top: -2px;
+  left: 14px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffffa6;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .pre-order-starting {
+  position: absolute;
+  width: 179px;
+  height: 45px;
+  top: 910px;
+  left: 631px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #fafafc;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+}
+
+.main .div {
+  position: absolute;
+  width: 271px;
+  height: 25px;
+  top: 958px;
+  left: 584px;
+}
+
+.main .text-wrapper {
+  position: absolute;
+  width: 264px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #fafafc;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-footnote-symbol {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  top: 3px;
+  left: 264px;
+}
+
+.main .text-wrapper-2 {
+  color: #fafafc;
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 14.7px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .link-learn-more {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  top: 1018px;
+  left: 558px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-3 {
+  position: absolute;
+  width: 87px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .link-view-pricing {
+  position: absolute;
+  width: 156px;
+  height: 56px;
+  top: 1018px;
+  left: 726px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-4 {
+  position: absolute;
+  width: 94px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .section-2 {
+  height: 1000px;
+  top: 2024px;
+  background: linear-gradient(
+    180deg,
+    rgb(12, 18, 71) 0%,
+    rgb(48, 51, 125) 18%,
+    rgb(80, 93, 173) 33%,
+    rgb(125, 142, 209) 49%,
+    rgb(174, 188, 230) 73%,
+    rgb(250, 250, 252) 100%
+  );
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .picture-iphone {
+  width: 986px;
+  height: 286px;
+  top: 280px;
+  /* left: 467px; */
+  background-image: url(./img/picture-iphone-16-bf3yv2bah15u-large-png.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .overlap-2 {
+  position: absolute;
+  width: 628px;
+  height: 176px;
+  top: 94px;
+  left: 646px;
+}
+
+.main .heading-iphone-2 {
+  position: absolute;
+  width: 274px;
+  height: 64px;
+  top: 0;
+  left: 177px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #f5f5f7;
+  font-size: 59.1px;
+  letter-spacing: -0.58px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main .picture-logo-hello {
+  width: 628px;
+  height: 156px;
+  top: 20px;
+  left: 0;
+  background-image: url(./img/picture-logo-hello-apple-intelligence-t4q8uvyiz8iu-large-png.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .built-for-apple-wrapper {
+  position: absolute;
+  width: 698px;
+  height: 84px;
+  top: 628px;
+  /* left: 611px; */
+}
+
+.main .p {
+  position: absolute;
+  width: 673px;
+  height: 85px;
+  top: -2px;
+  left: 13px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .pre-order-starting-2 {
+  position: absolute;
+  width: 179px;
+  height: 45px;
+  top: 741px;
+  /* left: 871px; */
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+}
+
+.main .overlap-3 {
+  position: absolute;
+  width: 271px;
+  height: 25px;
+  top: 789px;
+  /* left: 824px; */
+}
+
+.main .text-wrapper-5 {
+  position: absolute;
+  width: 264px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-6 {
+  color: #1d1d1f;
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 14.7px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .div-wrapper {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  top: 849px;
+  left: 798px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #1d1d1f;
+}
+
+.main .text-wrapper-7 {
+  position: absolute;
+  width: 87px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .link-view-pricing-2 {
+  position: absolute;
+  width: 156px;
+  height: 56px;
+  top: 849px;
+  left: 966px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #1d1d1f;
+}
+
+.main .text-wrapper-8 {
+  position: absolute;
+  width: 94px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .section-3 {
+  height: 1015px;
+  top: 3024px;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .heading-picture {
+  position: absolute;
+  width: 284px;
+  height: 99px;
+  top: 83px;
+  /* left: 818px; */
+  background-image: url(./img/heading-3-picture-logo-watch-series-10-b8mk7vq7k2b6-large-p.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .overlap-group-wrapper {
+  position: absolute;
+  width: 640px;
+  height: 112px;
+  top: 213px;
+  /* left: 640px; */
+}
+
+.main .overlap-group-2 {
+  width: 621px;
+  height: 114px;
+  left: 9px;
+  position: relative;
+  top: -2px;
+}
+
+.main .text-wrapper-9 {
+  position: absolute;
+  width: 470px;
+  height: 29px;
+  top: 0;
+  left: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link {
+  width: 6px;
+  top: 1px;
+  left: 485px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-10 {
+  width: 7px;
+  color: #6e6e73;
+  font-size: 13.3px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .invaluable {
+  position: absolute;
+  width: 116px;
+  height: 29px;
+  top: 0;
+  left: 491px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 22.9px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-11 {
+  position: absolute;
+  width: 547px;
+  height: 29px;
+  top: 28px;
+  left: 33px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link-2 {
+  width: 8px;
+  top: 29px;
+  left: 580px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-12 {
+  width: 8px;
+  color: #6e6e73;
+  font-size: 12.8px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-13 {
+  position: absolute;
+  width: 606px;
+  height: 29px;
+  top: 56px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-14 {
+  position: absolute;
+  width: 613px;
+  height: 29px;
+  top: 84px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link-3 {
+  width: 8px;
+  top: 85px;
+  left: 613px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-15 {
+  width: 9px;
+  color: #6e6e73;
+  font-size: 12.8px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-16 {
+  position: absolute;
+  width: 175px;
+  height: 25px;
+  top: 352px;
+  left: 873px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-2 {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  top: 412px;
+  left: 807px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #1d1d1f;
+}
+
+.main .link-pre-order-apple {
+  position: absolute;
+  width: 136px;
+  height: 56px;
+  top: 412px;
+  left: 976px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #1d1d1f;
+}
+
+.main .text-wrapper-17 {
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .picture-watch-series {
+  width: 1440px;
+  height: 444px;
+  top: 578px;
+  /* left: 240p/x; */
+  background-image: url(./img/picture-watch-series-10-bjzia1opgyuq-large-jpg.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .section-4 {
+  height: 1220px;
+  top: 4039px;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .heading-picture-2 {
+  position: absolute;
+  width: 284px;
+  height: 99px;
+  top: 83px;
+  left: 818px;
+  background-image: url(./img/heading-3-picture-logo-watch-ultra-2-1xqo1s2atgyq-large-png.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .container-2 {
+  position: absolute;
+  width: 618px;
+  height: 112px;
+  top: 213px;
+  left: 651px;
+}
+
+.main .overlap-group-3 {
+  width: 613px;
+  height: 114px;
+  left: 2px;
+  position: relative;
+  top: -2px;
+}
+
+.main .the-ultimate-sports {
+  position: absolute;
+  width: 613px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .text-wrapper-18 {
+  position: absolute;
+  width: 340px;
+  height: 29px;
+  top: 84px;
+  left: 132px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link-4 {
+  width: 9px;
+  top: 85px;
+  left: 472px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-19 {
+  width: 9px;
+  color: #86868b;
+  font-size: 12.8px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-20 {
+  top: 352px;
+  color: #f5f5f7;
+  position: absolute;
+  width: 175px;
+  height: 25px;
+  left: 873px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-3 {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  top: 412px;
+  left: 807px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .link-pre-order-apple-2 {
+  position: absolute;
+  width: 136px;
+  height: 56px;
+  top: 412px;
+  left: 976px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-21 {
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .picture-watch-ultra {
+  width: 100%;
+  height: 652px;
+  top: 568px;
+  /* left: 240px; */
+  background-image: url(./img/picture-watch-ultra-2-didkrmqgz0ia-large-jpg.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .overlap-wrapper {
+  height: 1253px;
+  top: 5259px;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .overlap-4 {
+  position: relative;
+  height: 1253px;
+  background-image: url(./img/picture-airpods-4-bmm7k3ocqng2-large-jpg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .heading-airpods {
+  position: absolute;
+  width: 270px;
+  height: 64px;
+  top: 820px;
+  left: 825px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #f5f5f7;
+  font-size: 58px;
+  letter-spacing: -0.58px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main .updated-fit-for-all-wrapper {
+  position: absolute;
+  width: 485px;
+  height: 112px;
+  top: 903px;
+  left: 718px;
+}
+
+.main .updated-fit-for-all {
+  position: absolute;
+  width: 476px;
+  height: 113px;
+  top: -2px;
+  left: 5px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffffa6;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .text-wrapper-22 {
+  top: 1042px;
+  color: #f5f5f7;
+  position: absolute;
+  width: 175px;
+  height: 25px;
+  left: 873px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-4 {
+  top: 1102px;
+  border-color: #f5f5f7;
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  left: 807px;
+  border-radius: 980px;
+  border: 1px solid;
+}
+
+.main .link-pre-order {
+  top: 1102px;
+  border-color: #f5f5f7;
+  position: absolute;
+  width: 136px;
+  height: 56px;
+  left: 976px;
+  border-radius: 980px;
+  border: 1px solid;
+}
+
+.main .section-5 {
+  height: 1144px;
+  top: 6512px;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .heading-airpods-2 {
+  width: 373px;
+  top: 82px;
+  left: 774px;
+  color: #f5f5f7;
+  font-size: 57.9px;
+  position: absolute;
+  height: 64px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  letter-spacing: -0.58px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main .container-3 {
+  position: absolute;
+  width: 584px;
+  height: 84px;
+  top: 165px;
+  left: 668px;
+}
+
+.main .overlap-group-4 {
+  width: 545px;
+  height: 86px;
+  left: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.main .coming-this-fall {
+  position: absolute;
+  width: 545px;
+  height: 57px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .text-wrapper-23 {
+  position: absolute;
+  width: 90px;
+  height: 29px;
+  top: 56px;
+  left: 56px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link-5 {
+  width: 8px;
+  top: 57px;
+  left: 146px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-24 {
+  width: 8px;
+  color: #86868b;
+  font-size: 12.9px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .and-help-protect {
+  position: absolute;
+  width: 181px;
+  height: 29px;
+  top: 56px;
+  left: 154px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .superscript-link-6 {
+  width: 9px;
+  top: 57px;
+  left: 335px;
+  position: absolute;
+  height: 29px;
+}
+
+.main .text-wrapper-25 {
+  width: 9px;
+  color: #86868b;
+  font-size: 13.3px;
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.main .your-hearing {
+  position: absolute;
+  width: 146px;
+  height: 29px;
+  top: 56px;
+  left: 343px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #86868b;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-5 {
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  top: 284px;
+  left: 830px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .link-buy-airpods-pro {
+  position: absolute;
+  width: 91px;
+  height: 56px;
+  top: 284px;
+  left: 999px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-26 {
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 16.7px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .picture-airpods-pro {
+  width: 100%;
+  height: 754px;
+  top: 390px;
+  /* left: 240px; */
+  background-image: url(./img/picture-airpods-pro-2-bvu6mvzkewty-large-jpg.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .section-6 {
+  height: 1454px;
+  top: 7656px;
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.main .heading-airpods-3 {
+  width: 348px;
+  top: 94px;
+  left: 786px;
+  color: #1d1d1f;
+  font-size: 58px;
+  position: absolute;
+  height: 64px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  letter-spacing: -0.58px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.main .the-ultimate-over-wrapper {
+  position: absolute;
+  width: 488px;
+  height: 84px;
+  top: 182px;
+  /* left: 716px; */
+}
+
+.main .the-ultimate-over {
+  position: absolute;
+  width: 482px;
+  height: 85px;
+  top: -2px;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #6e6e73;
+  font-size: 21.4px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  line-height: 28px;
+}
+
+.main .text-wrapper-27 {
+  top: 1243px;
+  color: #000000;
+  position: absolute;
+  width: 175px;
+  height: 25px;
+  /* left: 873px; */
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-6 {
+  top: 1303px;
+  border-color: #1d1d1f;
+  position: absolute;
+  width: 149px;
+  height: 56px;
+  /* left: 807px; */
+  border-radius: 980px;
+  border: 1px solid;
+}
+
+.main .link-pre-order-2 {
+  top: 1303px;
+  border-color: #1d1d1f;
+  position: absolute;
+  width: 136px;
+  height: 56px;
+  left: 976px;
+  border-radius: 980px;
+  border: 1px solid;
+}
+
+.main .picture-airpods-max {
+  width: 100%;
+  height: 890px;
+  top: 322px;
+  /* left: 558px; */
+  background-image: url(./img/picture-airpods-max-ekwd5ba5gpm6-large-jpg.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .section-7 {
+  height: 884px;
+  top: 38px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #000000;
+}
+
+.main .overlap-5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  /* left: 498px; */
+}
+
+.main .picture-hero-static {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  /* left: 92px; */
+  background-image: url(./img/picture-hero-static-f5zgxhmj6geq-large-jpg.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .heading {
+  position: absolute;
+  width: 924px;
+  height: 160px;
+  top: 634px;
+  left: 0;
+}
+
+.main .introducing-iphone {
+  position: absolute;
+  width: 917px;
+  height: 158px;
+  top: 0;
+  left: 4px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #f5f5f7;
+  font-size: 29px;
+  text-align: center;
+  letter-spacing: 0.13px;
+  line-height: 40px;
+}
+
+.main .link {
+  position: absolute;
+  width: 187px;
+  height: 56px;
+  top: 828px;
+  /* left: 867px; */
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-28 {
+  position: absolute;
+  width: 125px;
+  height: 20px;
+  top: 17px;
+  left: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
